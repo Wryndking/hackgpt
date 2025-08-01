@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HackGPT - Pentest Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="legal" id="legalNotice">
+    <h2>⚠️ Legal Notice</h2>
+    <p>This tool is for authorized testing and educational use only. By continuing, you agree to use HackGPT ethically and legally.</p>
+    <button id="agreeBtn">I Agree</button>
+  </div>
+
+  <div id="mainApp" class="hidden">
+    <h1>HackGPT</h1>
+    <p>Select a phase to begin:</p>
+    <div class="buttons">
+      <button class="phase" data-phase="Reconnaissance">Recon</button>
+      <button class="phase" data-phase="Scanning">Scan</button>
+      <button class="phase" data-phase="Exploitation">Exploit</button>
+      <button class="phase" data-phase="Post-Exploitation">Post</button>
+    </div>
+    <div class="chatbox" id="chatbox"></div>
+  
+  </div>
+
+  <h2>🔥 Hacker Gear Picks</h2>
+  <div class="product-section">
+    <div class="product-card">
+      <img src="product_mockups/flipper-zero-xl.jpg" alt="Flipper Zero XL">
+      <h3>Flipper Zero XL</h3>
+      <p>“Unlock what they don't want you to touch.”</p>
+      <a href="#" class="buy-btn" target="_blank">🔗 Check it out</a>
+    </div>
+    <div class="product-card">
+      <img src="product_mockups/raspberry-pi-kit.jpg" alt="Raspberry Pi 5 Kit">
+      <h3>Raspberry Pi 5 Kit</h3>
+      <p>“Build your own tools — or break theirs.”</p>
+      <a href="#" class="buy-btn" target="_blank">🔗 Check it out</a>
+    </div>
+    <div class="product-card">
+      <img src="product_mockups/esp32-pentest-kit.jpg" alt="ESP32 Pentester Kit">
+      <h3>ESP32 Pentester Kit</h3>
+      <p>“Pentest in your pocket. Silent. Fast. Yours.”</p>
+      <a href="#" class="buy-btn" target="_blank">🔗 Check it out</a>
+    </div>
+    <div class="product-card">
+      <img src="product_mockups/hackrf-portapack.jpg" alt="HackRF PortaPack Mayhem">
+      <h3>HackRF PortaPack Mayhem</h3>
+      <p>“Signal intelligence in your hand.”</p>
+      <a href="#" class="buy-btn" target="_blank">🔗 Check it out</a>
+    </div>
+    <div class="product-card">
+      <img src="product_mockups/usb-ninja.jpg" alt="USB Ninja Cable">
+      <h3>USB Ninja Cable</h3>
+      <p>“Power and payload. Don’t get caught.”</p>
+      <a href="#" class="buy-btn" target="_blank">🔗 Check it out</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
